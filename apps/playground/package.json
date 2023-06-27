@@ -1,0 +1,20 @@
+{
+  "name": "playground",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.ts --fix"
+  },
+  "dependencies": {
+    "mini-impl": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "typescript": "^5.0.2",
+    "tsconfig": "workspace:*",
+    "vite": "^4.3.9"
+  }
+}
