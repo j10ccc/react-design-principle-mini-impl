@@ -1,0 +1,16 @@
+{
+  "name": "mini-impl",
+  "version": "0.0.1",
+  "main": "./index.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\"",
+    "build": "tsc --build"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*",
+    "typescript": "^5.0.2"
+  }
+}
